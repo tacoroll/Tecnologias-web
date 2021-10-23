@@ -1,0 +1,151 @@
+
+
+		nav{
+			position:relative;
+			margin:auto;
+			width:100%;
+			height:auto;
+			background:black;
+		}
+
+		nav ul{
+			position:relative;
+			margin:auto;
+			width:50%;
+			text-align: center;
+		}
+
+		nav ul li{
+			display:inline-block;
+			width:24%;
+			line-height: 50px;
+			list-style: none;
+		}
+
+		nav ul li a{
+			color:white;
+			text-decoration: none;
+		}
+
+
+		section h1{
+			position: relative;
+			margin: auto;
+			padding:10px;
+			text-align: center;
+		}
+
+		section form{
+			position:relative;
+			margin:auto;
+			width:400px;
+		}
+	section form input{
+
+			display:inline-block;
+			padding:10px;
+			width:95%;
+			margin:5px;
+		}
+
+		section form input#usuarioRegistro{
+
+			text-transform: lowercase;
+		}
+
+		section form input[type="submit"]{
+			position:relative;
+			margin:20px auto;
+			left:1.4%;
+
+		}
+
+		table{
+			position:relative;
+			margin:auto;
+			width:100%;
+			
+			position: relative;
+			margin: auto;
+			width:400px;
+		}
+
+		table thead tr th{
+			padding:10px;
+		}
+
+		table tbody tr td{
+			padding:10px;
+		}
+
+		.carousel-item{
+  width: 100%;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 220px;
+  }
+}
+
+
+.gallery-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+    overflow:hidden;
+}
+
+.gallery-box .gallery-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(44,44,44,.8);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.gallery-box .gallery-box-caption .gallery-box-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.gallery-box:hover .gallery-box-caption {
+    opacity: 1;
+}
+
+.gallery-box:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gallery-box img {
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.logo2{
+    padding:0px, 0;
+    width: 100%;
+}
+.cart {
+  margin-right:50px;
+  float: right;
+  border: 1px solid #d8d8d8;
+  padding: 3px 10px;
+}
